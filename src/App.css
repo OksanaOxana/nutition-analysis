@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+body {
+  background: url(https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421154.jpg?size=626&ext=jpg&uid=R110490361&ga=GA1.1.760507894.1680008824&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MainContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.smallContainer {
+  background: url(https://img.freepik.com/free-photo/close-up-green-kiwi-fruit-slices_53876-33622.jpg?size=626&ext=jpg&uid=R110490361&ga=GA1.1.760507894.1680008824&semt=ais);
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-position: center;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.containerAnalysis {
+  background: whitesmoke;
+  width: 24vw;
+}
+
+.search {
+  padding: 9px;
+  border: none;
+  font-family: 'EB Garamond', serif;
+  width: 20vw
+}
+
+img {
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+}
+
+form {
+  display: flex;
+}
+
+h1, p {
+  font-family: 'EB Garamond', serif;
+}
+
+
+@media all and (max-width: 800px) {
+  search {
+    width: 10vw
+  }  
+  .containerAnalysis {
+    width:30vw
+  } 
+  p {
+    font-size: 10px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
